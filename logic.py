@@ -73,7 +73,7 @@ class Game:
 		return True
 	
 	def collect_data(self, winner: str):
-		path = "./database.csv"
+		path = "./database_10.csv"
 		try:
 			f = open(path)
 			f.close()
